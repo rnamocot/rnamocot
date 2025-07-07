@@ -104,7 +104,6 @@ export default function Header() {
           </div>
 
           <button onClick={() => handleScrollLink('skills')} className="cursor-pointer">Skills</button>
-          <Link href="/blog" onClick={() => setMenuOpen(false)} className="cursor-pointer">Blog</Link>
           <button onClick={() => handleScrollLink('contact')} className="cursor-pointer">Contact</button>
         </div>
       </div>
