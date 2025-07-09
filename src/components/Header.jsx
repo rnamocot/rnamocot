@@ -54,7 +54,6 @@ export default function Header() {
           </div>
 
           <button onClick={() => handleScrollLink('skills')} className="hover:text-sky-400 cursor-pointer">Skills</button>
-          <Link href="/blog" className="hover:text-sky-400 cursor-pointer">Blog</Link>
           <button onClick={() => handleScrollLink('contact')} className="hover:text-sky-400 cursor-pointer">Contact</button>
         </nav>
 
